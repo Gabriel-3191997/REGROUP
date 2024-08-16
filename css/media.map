@@ -1,0 +1,12 @@
+{
+	"version": 3,
+	"file": "media.css",
+	"sources": [
+		"../sass/media.scss"
+	],
+	"sourcesContent": [
+		"$border_radius: 5px;\n$display: none;\n$display2: block;\n\n$font_weight: bold;\n\n$font-size: 35px;\n$height: 50%;\n$logo_width: 50px;\n\n$width: 100%;\n$padding_top: 20px;\n$padding_bottom: 20px;\n\n\n@media(max-width: 600px){\n\n\timg.logo{\n\t\t\n\t\twidth: $logo_width;\n\t}\n}\n\n\n@media(max-width: 600px){\n\t\n\timg{\n\n\t\tborder-radius: $border_radius;\n\t\twidth: $width;\n\t}\n}\n\n\n@media(max-width: 600px){\n\n\t#nav-link{\n\n\t\tdisplay: $display;\n\t}\n\n}\n\n\n\n@media(max-width: 600px){\n\n\th2.text-light,h1.text-light,h2.heading{\n\t\t\n\t\tfont-weight: $font_weight;\n\t\tfont-size: $font-size;\n\t}\n}\n\n\n@media(max-width: 600px){\n\n\t.hero-image{\n\t\tpadding-bottom: $padding_bottom;\n\t\theight: $height;\n\t}\n}\n\n\n@media(max-width: 600px){\n\n\t.hero-text{\n\n\t\tpadding-top: $padding_top;\n\t\tpadding-bottom: $padding_bottom;\n\t}\n}\n"
+	],
+	"names": [],
+	"mappings": "AAeA,MAAM,EAAC,SAAS,EAAE,KAAK;;EAEtB,AAAA,GAAG,AAAA,KAAK,CAAA;IAEP,KAAK,EAXM,IAAI;GAYf;;;AAIF,MAAM,EAAC,SAAS,EAAE,KAAK;;EAEtB,AAAA,GAAG,CAAA;IAEF,aAAa,EA5BC,GAAG;IA6BjB,KAAK,EAnBC,IAAI;GAoBV;;;AAIF,MAAM,EAAC,SAAS,EAAE,KAAK;;EAEtB,AAAA,SAAS,CAAA;IAER,OAAO,EArCC,IAAI;GAsCZ;;;AAMF,MAAM,EAAC,SAAS,EAAE,KAAK;;EAEtB,AAAA,EAAE,AAAA,WAAW,EAAC,EAAE,AAAA,WAAW,EAAC,EAAE,AAAA,QAAQ,CAAA;IAErC,WAAW,EA7CC,IAAI;IA8ChB,SAAS,EA5CC,IAAI;GA6Cd;;;AAIF,MAAM,EAAC,SAAS,EAAE,KAAK;;EAEtB,AAAA,WAAW,CAAA;IACV,cAAc,EA9CC,IAAI;IA+CnB,MAAM,EApDC,GAAG;GAqDV;;;AAIF,MAAM,EAAC,SAAS,EAAE,KAAK;;EAEtB,AAAA,UAAU,CAAA;IAET,WAAW,EAzDC,IAAI;IA0DhB,cAAc,EAzDC,IAAI;GA0DnB"
+}

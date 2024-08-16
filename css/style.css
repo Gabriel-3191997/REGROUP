@@ -1,0 +1,220 @@
+/* line 74, ../../../../../Users/gabrielwkun/Desktop/REGROUP/sass/style.scss */
+body {
+  margin: 0px;
+  background: #102000;
+}
+
+/* line 83, ../../../../../Users/gabrielwkun/Desktop/REGROUP/sass/style.scss */
+#image:hover {
+  background-color: #ffffff;
+  opacity: 0.8;
+}
+
+/* line 90, ../../../../../Users/gabrielwkun/Desktop/REGROUP/sass/style.scss */
+#logo:hover {
+  background-color: inherit;
+}
+
+/* line 95, ../../../../../Users/gabrielwkun/Desktop/REGROUP/sass/style.scss */
+img:hover {
+  background-color: #ffffff;
+  opacity: 0.8;
+}
+
+/* line 102, ../../../../../Users/gabrielwkun/Desktop/REGROUP/sass/style.scss */
+h2.text-light {
+  padding-top: 20px;
+  font-weight: bolder;
+  text-transform: capitalize;
+}
+
+/* line 116, ../../../../../Users/gabrielwkun/Desktop/REGROUP/sass/style.scss */
+.text-light {
+  padding: 10px;
+  margin: 20px;
+  text-align: left;
+  font-family: Arial;
+  font-weight: normal;
+}
+
+/* line 127, ../../../../../Users/gabrielwkun/Desktop/REGROUP/sass/style.scss */
+.paragraph {
+  margin: 50px;
+  font-family: Arial;
+  font-weight: normal;
+  text-align: left;
+}
+
+/* line 136, ../../../../../Users/gabrielwkun/Desktop/REGROUP/sass/style.scss */
+#gallery {
+  background-color: #091907;
+  height: auto;
+}
+
+/* line 143, ../../../../../Users/gabrielwkun/Desktop/REGROUP/sass/style.scss */
+#scope {
+  background-color: #006000;
+}
+
+/* line 149, ../../../../../Users/gabrielwkun/Desktop/REGROUP/sass/style.scss */
+#mission, #policy {
+  background-color: #004000;
+}
+
+/* line 156, ../../../../../Users/gabrielwkun/Desktop/REGROUP/sass/style.scss */
+.hero-text {
+  padding-top: 150px;
+  padding-bottom: 180px;
+}
+
+/* line 163, ../../../../../Users/gabrielwkun/Desktop/REGROUP/sass/style.scss */
+#content {
+  background-color: #102000;
+  margin: 0px;
+}
+
+/* line 170, ../../../../../Users/gabrielwkun/Desktop/REGROUP/sass/style.scss */
+#card1 {
+  background-color: inherit;
+  margin: 0px;
+  border: none;
+}
+
+/* line 179, ../../../../../Users/gabrielwkun/Desktop/REGROUP/sass/style.scss */
+#card2 {
+  background-color: inherit;
+  margin: 0px;
+  border: none;
+}
+
+/* line 188, ../../../../../Users/gabrielwkun/Desktop/REGROUP/sass/style.scss */
+#card3 {
+  background-color: inherit;
+  margin-right: 15px;
+  border: none;
+}
+
+/* line 195, ../../../../../Users/gabrielwkun/Desktop/REGROUP/sass/style.scss */
+#card4 {
+  background-color: inherit;
+  border: none;
+}
+
+/* line 202, ../../../../../Users/gabrielwkun/Desktop/REGROUP/sass/style.scss */
+#card5 {
+  background-color: inherit;
+  border: none;
+}
+
+/* line 209, ../../../../../Users/gabrielwkun/Desktop/REGROUP/sass/style.scss */
+#card6 {
+  background-color: inherit;
+  border: none;
+  margin: 0px;
+}
+
+/* line 216, ../../../../../Users/gabrielwkun/Desktop/REGROUP/sass/style.scss */
+#gallery-container {
+  padding-top: 50px;
+}
+
+/* line 223, ../../../../../Users/gabrielwkun/Desktop/REGROUP/sass/style.scss */
+a.nav-link {
+  color: #ffffff;
+}
+
+/* line 229, ../../../../../Users/gabrielwkun/Desktop/REGROUP/sass/style.scss */
+a.nav-link:hover {
+  color: #00ff00;
+}
+
+/* line 235, ../../../../../Users/gabrielwkun/Desktop/REGROUP/sass/style.scss */
+a#active {
+  background-color: #00ff00;
+  color: #002000;
+}
+
+/* line 242, ../../../../../Users/gabrielwkun/Desktop/REGROUP/sass/style.scss */
+#about {
+  padding-top: 100px;
+  padding-bottom: 100px;
+  background-color: #002000;
+}
+
+/* line 251, ../../../../../Users/gabrielwkun/Desktop/REGROUP/sass/style.scss */
+h2.heading {
+  color: #00ff00;
+  text-transform: uppercase;
+  font-weight: bolder;
+  font-family: Arial;
+}
+
+/* line 259, ../../../../../Users/gabrielwkun/Desktop/REGROUP/sass/style.scss */
+nav.navbar {
+  background-color: #102000;
+  padding: 10px;
+}
+
+/* line 266, ../../../../../Users/gabrielwkun/Desktop/REGROUP/sass/style.scss */
+a.navbar-brand {
+  color: #ffffff;
+  font-family: Arial;
+  font-size: 24px;
+  text-decoration: none;
+  font-weight: normal;
+  text-transform: uppercase;
+  margin-left: 20px;
+}
+
+/* line 280, ../../../../../Users/gabrielwkun/Desktop/REGROUP/sass/style.scss */
+a.navbar-brand:hover {
+  color: #00ff00;
+}
+
+/* line 286, ../../../../../Users/gabrielwkun/Desktop/REGROUP/sass/style.scss */
+ul.nav {
+  background-color: #102000;
+}
+
+/* line 292, ../../../../../Users/gabrielwkun/Desktop/REGROUP/sass/style.scss */
+ul {
+  color: blue;
+  list-style: none;
+}
+
+/* line 297, ../../../../../Users/gabrielwkun/Desktop/REGROUP/sass/style.scss */
+li.nav-item {
+  color: blue;
+  display: inline;
+  padding: 10px;
+}
+
+/* line 304, ../../../../../Users/gabrielwkun/Desktop/REGROUP/sass/style.scss */
+a {
+  text-decoration: none;
+}
+
+/* line 310, ../../../../../Users/gabrielwkun/Desktop/REGROUP/sass/style.scss */
+.hero-image {
+  background-image: url("../images/background.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 450px;
+}
+
+/* line 320, ../../../../../Users/gabrielwkun/Desktop/REGROUP/sass/style.scss */
+h1 {
+  color: #00ff00;
+  text-transform: uppercase;
+  text-align: center;
+  margin: 20px;
+}
+
+/* line 329, ../../../../../Users/gabrielwkun/Desktop/REGROUP/sass/style.scss */
+h2 {
+  text-align: center;
+  font-weight: bold;
+}
+
+/*# sourceMappingURL=style.css.map */

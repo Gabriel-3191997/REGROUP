@@ -1,0 +1,47 @@
+@media (max-width: 600px) {
+  /* line 18, ../../../../../Users/gabrielwkun/Desktop/REGROUP/sass/media.scss */
+  img.logo {
+    width: 50px;
+  }
+}
+
+@media (max-width: 600px) {
+  /* line 27, ../../../../../Users/gabrielwkun/Desktop/REGROUP/sass/media.scss */
+  img {
+    border-radius: 5px;
+    width: 100%;
+  }
+}
+
+@media (max-width: 600px) {
+  /* line 37, ../../../../../Users/gabrielwkun/Desktop/REGROUP/sass/media.scss */
+  #nav-link {
+    display: none;
+  }
+}
+
+@media (max-width: 600px) {
+  /* line 48, ../../../../../Users/gabrielwkun/Desktop/REGROUP/sass/media.scss */
+  h2.text-light, h1.text-light, h2.heading {
+    font-weight: bold;
+    font-size: 35px;
+  }
+}
+
+@media (max-width: 600px) {
+  /* line 58, ../../../../../Users/gabrielwkun/Desktop/REGROUP/sass/media.scss */
+  .hero-image {
+    padding-bottom: 20px;
+    height: 50%;
+  }
+}
+
+@media (max-width: 600px) {
+  /* line 67, ../../../../../Users/gabrielwkun/Desktop/REGROUP/sass/media.scss */
+  .hero-text {
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+}
+
+/*# sourceMappingURL=media.css.map */
