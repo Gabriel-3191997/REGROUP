@@ -1,0 +1,332 @@
+$bckg :#102000;
+$text_color : #ffffff;
+$mgn : 0px;
+
+$margin: 50px;
+$Margin: 20px;
+$Text_align: left;
+
+$backg : #000000;
+$padd : 10px;
+$pAdding: 20px;
+
+$PADDING_TOP: 100px;
+$PADDING_BOTTOM: 100px;
+$pad: 50px;
+
+$FontWeight: bolder;
+$TextTransform: capitalize;
+$clor:#002000;
+
+$Color : blue;
+$text_decoration : none;
+$font_Family : Arial;
+
+$font_size : 24px;
+$font_weight : bold;
+$fontWeight : normal;
+
+$list_style : none;
+$display : inline;
+$text_transform: uppercase;
+
+$color: #ffffff;
+$text_align: center;
+$opacity: 0.8;
+
+$background_image : url('../images/background.jpg');
+$background_repeat : no-repeat;
+$Background: #102000;
+
+$background_color: #102000;
+$background_size : cover;
+
+$scope: #006000;
+$gallery: #091907;
+$height_gallery: auto;
+
+$border_radius: 5px;
+
+$card_background: inherit;
+$card_border: none;
+$card_margin: 15px;
+
+$height : 450px;
+$background_position : center;
+
+$heading_margin: 20px;
+$padding_top: 20px;
+$none: none;
+
+
+$padding_bottom: 20px;
+$Padding_top: 150px;
+$inherit: inherit;
+
+$bAckground: #004000;
+$Padding_bottom: 180px;
+
+
+$text_color: #00ff00;
+
+
+
+body{
+
+	margin: $mgn;
+	background:$background_color;
+	
+}
+
+
+
+#image:hover{
+
+	background-color: $color;
+	opacity: $opacity;
+
+}
+
+#logo:hover{
+
+	background-color:$inherit;
+}
+
+img:hover{
+	background-color: $color;
+	opacity: $opacity;
+
+}
+
+
+h2.text-light{
+	
+	padding-top:$pAdding;
+	font-weight:$FontWeight;
+	text-transform:$TextTransform;
+}
+
+
+#gallery-container{
+
+	
+}
+
+
+.text-light{
+
+	padding: $padd;
+	margin: $Margin;
+	text-align: $Text_align;
+	font-family: $font_Family;
+	font-weight: $fontWeight;
+
+}
+
+
+.paragraph{
+
+	margin: $margin;
+	font-family: $font_Family;
+	font-weight: $fontWeight;
+	text-align: $Text_align;
+}
+
+
+#gallery{
+
+	background-color: $gallery;
+	height: $height_gallery;
+}
+
+
+#scope{
+	
+	background-color:$scope;
+}
+
+
+#mission,#policy{
+
+	background-color: $bAckground;
+
+}
+
+
+.hero-text{
+
+	padding-top:$Padding_top;
+	padding-bottom:$Padding_bottom;
+}
+
+
+#content{
+	
+	background-color: $background_color;
+	margin: $mgn;
+}
+
+
+#card1{
+
+	background-color: $card_background;
+	margin: $mgn;
+	border: $card_border;
+	
+
+}
+
+#card2{
+
+background-color: $card_background;
+	margin: $mgn;
+	border: $card_border;
+
+
+}
+
+#card3{
+
+	background-color: $card_background;
+	margin-right: $card_margin;
+	border: $card_border;
+}
+
+#card4{
+
+	background-color: $card_background;
+	border: $card_border;
+
+}
+
+#card5{
+
+	background-color: $card_background;
+	border: $card_border;
+
+}
+
+#card6{
+
+	background-color: $card_background;
+	border: $card_border;
+	margin: $mgn;
+}
+
+#gallery-container{
+
+	padding-top: $pad;
+}
+
+
+
+a.nav-link{
+
+	color:$color;
+}
+
+
+a.nav-link:hover{
+
+	color: $text_color;
+}
+
+
+a#active{
+
+	background-color:$text_color ;
+	color: $clor;
+}
+
+
+#about{
+
+	padding-top:$PADDING_TOP;
+	padding-bottom: $PADDING_BOTTOM;
+	background-color: $clor ;
+	
+}
+
+
+h2.heading{
+
+	color:$text_color;
+	text-transform: $text_transform;
+	font-weight: $FontWeight;
+	font-family: $font_Family;
+}
+
+nav.navbar{
+
+	background-color: $bckg;
+	padding: $padd;
+}
+
+
+a.navbar-brand{
+
+color: $color;
+font-family: $font_Family;
+font-size: $font_size;
+text-decoration: $text_decoration;
+font-weight: $fontWeight;
+text-transform: $text_transform;
+margin-left: $Margin;
+
+
+}
+
+
+a.navbar-brand:hover{
+
+	color: $text_color;
+}
+
+
+ul.nav{
+
+background-color: $Background;
+
+}
+
+ul{
+	color: $Color;
+	list-style: $list_style;
+}
+
+li.nav-item{
+	color: $Color;
+	display: $display;
+	padding: $padd;
+	
+}
+
+a{
+
+	text-decoration: $text_decoration;
+}
+
+
+.hero-image{
+
+	background-image: $background_image;
+	background-repeat: $background_repeat;
+	background-size: $background_size;
+	background-position: $background_position;
+	height: $height;
+}
+
+
+h1{
+	color: $text_color;
+	text-transform:$text_transform;
+	text-align: $text-align;
+	margin:$heading_margin;
+}
+
+
+
+h2{
+	text-align: $text_align;
+	font-weight: $font_weight;
+}
